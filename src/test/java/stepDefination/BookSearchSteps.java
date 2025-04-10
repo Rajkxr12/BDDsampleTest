@@ -3,10 +3,15 @@ package stepDefination;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
+//import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -43,5 +48,14 @@ public class BookSearchSteps {
 		System.out.println(url);
 		Assert.assertTrue(url.contains("fantasy"));
 	}
+	
+//	@AfterStep
+//	public void attachScreen(Scenario sc) {
+////		if(sc.isFailed()) {
+//		TakesScreenshot screen = (TakesScreenshot) driver;
+//		byte[] img = screen.getScreenshotAs(OutputType.BYTES);
+//		sc.attach(img, "image/png", "ScreenImg");
+////		}
+//	}
 
 }

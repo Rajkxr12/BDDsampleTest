@@ -1,7 +1,5 @@
 Feature: Booksearch Test
 
-  #Background: Given user is on homepage
-
   @book
   Scenario: Novel Book search Test
     Given user is on homepage

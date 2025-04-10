@@ -1,63 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-09T16:31:05 IST" name="Default suite" finished-at="2025-04-09T16:31:21 IST" duration-ms="16004">
+  <suite started-at="2025-04-10T17:44:39 IST" name="Default suite" finished-at="2025-04-10T17:44:42 IST" duration-ms="3195">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.testRunner@5e2c3d18]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-09T16:31:05 IST" name="Default test" finished-at="2025-04-09T16:31:21 IST" duration-ms="16004">
-      <class name="runners.testRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.testRunner@5e2c3d18]" started-at="2025-04-09T16:31:05 IST" name="setUpClass" finished-at="2025-04-09T16:31:05 IST" duration-ms="762" status="PASS">
+    <test started-at="2025-04-10T17:44:39 IST" name="Default test" finished-at="2025-04-10T17:44:42 IST" duration-ms="3195">
+      <class name="runners.CrmRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:39 IST" name="setUpClass" finished-at="2025-04-10T17:44:40 IST" duration-ms="798" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5b22d8a1]]>
+                <![CDATA[org.testng.TestRunner@b25b095]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.testRunner@5e2c3d18]" started-at="2025-04-09T16:31:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-09T16:31:13 IST" duration-ms="7725" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="144" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Novel Book search Test"]]>
+                <![CDATA["Create New Contact"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Booksearch Test"]]>
+                <![CDATA["Contact CRUD Management"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.testRunner@5e2c3d18]" started-at="2025-04-09T16:31:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-09T16:31:21 IST" duration-ms="7333" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Fantasy Book search Test"]]>
+                <![CDATA["View the contacts"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Booksearch Test"]]>
+                <![CDATA["Contact CRUD Management"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.testRunner@5e2c3d18]" started-at="2025-04-09T16:31:21 IST" name="tearDownClass" finished-at="2025-04-09T16:31:21 IST" duration-ms="124" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete the deals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact CRUD Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create New deals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Deals CRUD Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View the deals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Deals CRUD Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete the deals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Deals CRUD Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create New tasks"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task CRUD Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View the tasks"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task CRUD Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-10T17:44:40 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete the tasks"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task CRUD Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.CrmRunner@548a24a]" started-at="2025-04-10T17:44:40 IST" name="tearDownClass" finished-at="2025-04-10T17:44:42 IST" duration-ms="1965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.testRunner -->
+      </class> <!-- runners.CrmRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
